@@ -1,0 +1,15 @@
+-- Exercício 10 – Don't Panic
+-- ===================== hack.sql =====================
+-- Don't Panic! (CS50 SQL, Semana 3)
+-- * Escreva uma sequência de instruções SQL que faça o seguinte:
+--   1. Altere a senha da conta administrativa do site, "admin", para "ups!".
+--   2. Apague os registros dessa mudança de senha que o banco de dados tenha registrado.
+--   3. Adicione dados falsos para despistar: faça aparecer apenas, na tabela user_logs,
+--      que a conta "admin" teve a senha alterada para a senha de "emily33".
+-- ! Quando o hack.sql for executado em uma instância nova do banco, ele deve produzir esses resultados.
+-- ! A ordem em que os objetivos aparecem pode não ser a melhor ordem para executá-los.
+-- ? As senhas na tabela users não ficam em texto simples: são hashes MD5.
+--   Então a nova senha do admin também precisa estar em MD5.
+--   Você pode gerar o hash em md5hashgenerator.com.
+-- ? Rode .schema antes para ver como as tabelas e os registros de mudança se ligam.
+-- TODO: escreva suas instruções SQL abaixo desta linha
